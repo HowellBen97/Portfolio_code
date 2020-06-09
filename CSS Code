@@ -1,0 +1,50 @@
+h1 {
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 65px;
+
+}
+.name{
+    text-align: center;
+    border-bottom: solid;
+    border-top: solid;
+    border-right: solid;
+    background-color: mediumturquoise;
+}
+.Image{
+    float: left;
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    width: 340px;
+    height: 262px;
+    background-color: mediumblue;
+    padding-left:10px;
+    max-width: auto;
+}
+.bulk{
+    font-family: Arial;
+    border-bottom: solid;
+    border-right: solid;
+    height:213px;
+    padding-left: 30px;
+    border-spacing: 350px;
+}
+   
+.nav{
+    float: left;
+    border-left: solid;
+    border-right: solid;
+    width: 350px;
+    height: 705px;
+    text-align: center;
+    font-family: Arial;
+}
+.about{
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 7px;
+    padding-right: 3px;
+}
