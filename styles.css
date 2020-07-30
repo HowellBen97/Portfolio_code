@@ -1,51 +1,7 @@
 body {
     display: flex;
     width: 100%;
-    background-color: #424242;
-}
-h1 {
-    font-family: Arial;
-    color: whitesmoke;
-    text-align: center;
-    font-size: 65px;
-}
-
-section {
-    font-family: Arial;
-    text-align: center;
-}
-
-.name {
-    text-align: center;
-}
-
-.image img {
-    border-radius: 20%;
-    border-style: solid;
-}
-
-.header {
-}
-
-.right {
-    float: right;
-    width: inherit;
-}
-
-img {
-    max-width: 200px;
-    height: auto;
-}
-
-.recent {
-    font-family: Arial;
-    padding-left: 5%;
-    padding-right: 5%;
-    text-align: center;
-}
-
-.recent p {
-    text-align: left;
+    background-color: whitesmoke;
 }
 
 .nav {
@@ -57,6 +13,12 @@ img {
     background-color: #424242;
 }
 
+.image img {
+    border-radius: 20%;
+    border-style: solid;
+    max-width: 200px;
+}
+
 .about {
     text-align: center;
     font-size: 20px;
@@ -66,6 +28,65 @@ img {
     border-color: #424242;
     color: whitesmoke;
 }
+
+.right {
+    float: right;
+    width: inherit;
+}
+
+
+
+.info {
+    background-color: whitesmoke;
+}
+
+.info_flex {
+    position: relative;
+}
+
+.info_date {
+    left: 0%;
+    width: 15%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.info_desc {
+    right: 0%;
+    width: 85%;
+    top: 0%;
+    bottom: 0%;
+}
+
+.recent {
+    font-family: Arial;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: left;
+}
+
+.recent p {
+    text-align: left;
+}
+
+h1 {
+    font-family: Arial;
+    color: black;
+    text-align: center;
+    font-size: 65px;
+}
+
+section {
+    font-family: Arial;
+    text-align: center;
+}
+
+img {
+    max-width: 75px;
+    height: auto;
+    text-align: center;
+}
+
 ul {
     text-align: left;
 }
@@ -73,16 +94,47 @@ ul {
 i {
     font-size: 4em;
 }
-section > h3{
+
+section>h3 {
     font-weight: bold;
 }
-h2{
-    background-color: #757575;
-    color:whitesmoke;
-}
-.socials{
 
+h2 {
+    background-color: #757575;
+    color: whitesmoke;
+    text-align: center;
 }
-.info{
-    background-color: whitesmoke;
+
+.h_right {
+    text-align: right;
+}
+
+.fab {
+    color: inherit;
+}
+a:hover{
+    /* add animation */
+}
+
+
+.hobbie_int {
+    border-color: whitesmoke;
+    border-radius: 5%;
+    border-style: groove;
+    color: teal;
+}
+.header{
+    text-align: center;
+}
+.facebook{
+    border-radius: 20%;
+    display: inline;
+    }
+.twitter{
+    border-radius: 20%;
+    display: inline;
+}
+.instagram{
+    border-radius: 20%;
+    display: inline;
 }
