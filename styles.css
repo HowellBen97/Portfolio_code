@@ -14,7 +14,14 @@ body {
     float: left;
     position: sticky;
     background-color: #424242;
+    min-height: 100%;
     
+}
+.h2 a{
+    display:none;
+}
+.socials{
+    padding-right: 2em;
 }
 
 .image img {
@@ -141,6 +148,10 @@ h2 {
     border-radius: 20%;
     display: inline;
 }
+.ref{
+    display: inline;
+    text-align: center;
+}
 /* .hobbies_int>.svg{
     color: whitesmoke;
 
@@ -152,7 +163,7 @@ h2 {
 } */
 @media only screen and (max-width: 600px) {
     .about p{
-        font-size: 0.75em;
+        font-size: 1em;
         color: whitesmoke;
     }
     body{
@@ -166,9 +177,11 @@ h2 {
     }
     .image img{
         max-width: 9em;
+        /* padding-top: 1em; */
     }
     .image{
         margin-bottom: -0.8em;
+        padding-top: 0.5em;
     }
     .nav{
         width:100%;
