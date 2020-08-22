@@ -4,6 +4,7 @@ body {
     background-color: whitesmoke;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav {
@@ -14,7 +15,7 @@ body {
     float: left;
     position: sticky;
     background-color: #424242;
-    min-height: 100%;
+    min-height: 100vh;
     
 }
 .h2 a{
@@ -33,7 +34,7 @@ body {
 .about {
     text-align: center;
     font-size: 1em;
-    font-family: Arial;
+    /* font-family: Arial; */
     padding-left: 2%;
     padding-right: 2%;
     border-color: #424242;
@@ -54,24 +55,23 @@ body {
     background-color: whitesmoke;
 }
 
-.info_flex {
+/* .info_flex {
     position: relative;
+} */
+
+/* Parent: flex */
+.info_desc {
+    display: flex;
 }
 
-.info_date info_flex {
-    left: 0%;
-    width: 15%;
-    top: 0%;
-    bottom: 0%;
-    text-align: left;
+/* Left */
+.info_date {
+    width: 30%;
 }
 
-.recent info_desc info_flex {
-    right: 0%;
-    width: 85%;
-    top: 0%;
-    bottom: 0%;
-    text-align: right;
+/* Right */
+.info_content {
+    width: inherit;
 }
 
 .recent {
@@ -92,10 +92,7 @@ h1 {
     font-size: 3.5em;
 }
 
-section {
-    font-family: Arial;
-    text-align: center;
-}
+
 
 img {
     max-width: 2em;
@@ -111,14 +108,16 @@ i {
     font-size: 4em;
 }
 
-section>h3 {
+section h3 {
     font-weight: bold;
+    margin-top: 0;
 }
 
 h2 {
     background-color: #757575;
     color: whitesmoke;
     text-align: center;
+    margin-top: 0;
 }
 
 .h_right {
@@ -151,6 +150,9 @@ h2 {
 .ref{
     display: inline;
     text-align: center;
+}
+a{
+    text-decoration: none;
 }
 /* .hobbies_int>.svg{
     color: whitesmoke;
