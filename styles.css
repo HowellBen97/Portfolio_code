@@ -67,6 +67,7 @@ body {
 /* Left */
 .info_date {
     width: 30%;
+    padding-left: 1em;
 }
 
 /* Right */
@@ -148,11 +149,22 @@ h2 {
     display: inline;
 }
 .ref{
+    display: block;
+
+}
+.ref1{
     display: inline;
-    text-align: center;
+    text-align: left;
+
+}
+.ref1 ul{
+    padding-left: 1em;
 }
 a{
     text-decoration: none;
+}
+.contact{
+    text-align: center;
 }
 /* .hobbies_int>.svg{
     color: whitesmoke;
@@ -163,9 +175,9 @@ a{
         display: hidden;
     }
 } */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
     .about p{
-        font-size: 1em;
+        font-size: 0.8em;
         color: whitesmoke;
     }
     body{
@@ -189,13 +201,13 @@ a{
         width:100%;
     }
     h2{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     li{
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
     h1{
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     .hobbies{
         display:inline;
@@ -208,7 +220,7 @@ a{
         max-width: 2em;
     }
     h3{
-        font-size:1.2em
+        font-size:1em
     }
     .name>h1{
         display: none;
@@ -229,5 +241,11 @@ a{
     }
     .mobile_socials{
         display: inline;
+    }
+    .info_date{
+        font-size: 0.7em;
+    }
+    .info_content{
+        font-size: 0.8em;
     }
 }
