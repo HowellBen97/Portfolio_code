@@ -9,7 +9,6 @@ body {
 
 .left {
     width: 30%;
-    /* width: 100%; */
     text-align: center;
     font-family: Arial;
     float: left;
@@ -34,7 +33,6 @@ body {
 .about {
     text-align: center;
     font-size: 1em;
-    /* font-family: Arial; */
     padding-left: 2%;
     padding-right: 2%;
     border-color: #424242;
@@ -54,11 +52,6 @@ body {
 .info {
     background-color: whitesmoke;
 }
-
-/* .info_flex {
-    position: relative;
-} */
-
 /* Parent: flex */
 .info_desc {
     display: flex;
@@ -96,7 +89,7 @@ h1 {
 
 
 img {
-    max-width: 2em;
+    max-width: 3em;
     height: auto;
     text-align: center;
 }
@@ -148,10 +141,6 @@ h2 {
     border-radius: 20%;
     display: inline;
 }
-/* .ref{
-    display: inline;
-
-} */
 .ref1{
     width: 30%;
 }
@@ -257,5 +246,12 @@ a{
     .ref1{
         width: 100%;
         padding-left:5%
+    }
+    .ref1 ul{
+            list-style: none;
+    }
+    .center-flex{
+        display: flex;
+        justify-content: center;
     }
 }
