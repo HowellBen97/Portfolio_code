@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.left {
+nav {
     width: 30%;
     text-align: center;
     font-family: Arial;
@@ -64,7 +64,7 @@ body {
 }
 
 /* Right */
-.info_content {
+article {
     width: inherit;
 }
 
@@ -126,7 +126,7 @@ h2 {
     padding-right: 1em;
     display: inline;
 }
-.header{
+header{
     text-align: right;
 }
 .facebook{
@@ -141,10 +141,10 @@ h2 {
     border-radius: 20%;
     display: inline;
 }
-.ref1{
+.ref{
     width: 30%;
 }
-.ref1 ul{
+.ref ul{
         list-style: none;
 }
 .center-flex{
@@ -178,7 +178,7 @@ a{
     .right{
         padding-left: 1em;
     }
-    .header>h1{
+    header>h1{
         display: none;
     }
     .image img{
@@ -189,7 +189,7 @@ a{
         margin-bottom: -0.8em;
         padding-top: 0.5em;
     }
-    .left{
+    nav{
         width:100%;
     }
     h2{
@@ -214,7 +214,7 @@ a{
     h3{
         font-size:1em
     }
-    .name>h1{
+    header>h1{
         display: none;
     }
     .mobile_name{       
@@ -237,17 +237,17 @@ a{
     .info_date{
         font-size: 0.7em;
     }
-    .info_content{
+    article {
         font-size: 0.8em;
     }
     .center-flex{
         display: block;
     }
-    .ref1{
+    .ref{
         width: 100%;
         padding-left:5%
     }
-    .ref1 ul{
+    .ref ul{
             list-style: none;
     }
     .center-flex{
