@@ -62,7 +62,9 @@ nav {
     width: 30%;
     padding-left: 1em;
 }
-
+.info_content {
+    width: 70%;
+}
 /* Right */
 article {
     width: inherit;
