@@ -32,7 +32,7 @@ body {
 
 .about {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-left: 2%;
     padding-right: 2%;
     border-color: #424242;
@@ -126,7 +126,7 @@ h2 {
     padding-right: 1em;
     display: inline;
 }
-.header{
+header{
     text-align: right;
 }
 .facebook{
@@ -141,10 +141,10 @@ h2 {
     border-radius: 20%;
     display: inline;
 }
-.ref1{
+article{
     width: 30%;
 }
-.ref1 ul{
+article ul{
         list-style: none;
 }
 .center-flex{
@@ -178,7 +178,7 @@ a{
     .right{
         padding-left: 1em;
     }
-    .header>h1{
+    header>h1{
         display: none;
     }
     .image img{
@@ -196,7 +196,7 @@ a{
         font-size: 1.2em;
     }
     li{
-        font-size: 0.6em;
+        font-size: 0.9em;
     }
     h1{
         font-size: 1.6em;
@@ -243,15 +243,8 @@ a{
     .center-flex{
         display: block;
     }
-    .ref1{
+    article{
         width: 100%;
         padding-left:5%
-    }
-    .ref1 ul{
-            list-style: none;
-    }
-    .center-flex{
-        display: flex;
-        justify-content: center;
     }
 }
