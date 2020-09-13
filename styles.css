@@ -169,7 +169,6 @@ a{
 } */
 @media only screen and (max-width: 1000px) {
     .about p{
-        font-size: 0.8em;
         color: whitesmoke;
     }
     body{
@@ -196,7 +195,7 @@ a{
         font-size: 1.2em;
     }
     li{
-        font-size: 0.9em;
+        /* font-size: 0.9em; */
     }
     h1{
         font-size: 1.6em;
@@ -235,10 +234,10 @@ a{
         display: inline;
     }
     .info_date{
-        font-size: 0.7em;
+        font-size: 0.95em;
     }
     article {
-        font-size: 0.8em;
+        /* font-size: 0.8em; */
         display: flex;
     }
     .center-flex{
