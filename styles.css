@@ -15,12 +15,13 @@ nav {
     position: sticky;
     background-color: #424242;
     min-height: 100vh;
-    
 }
-.h2 a{
-    display:none;
+
+.h2 a {
+    display: none;
 }
-.socials{
+
+.socials {
     padding-right: 2em;
 }
 
@@ -38,10 +39,12 @@ nav {
     border-color: #424242;
     color: whitesmoke;
 }
-.mobile_name{
-    display:none;
+
+.mobile_name {
+    display: none;
 }
-.mobile_socials{
+
+.mobile_socials {
     display: none;
 }
 
@@ -49,25 +52,34 @@ nav {
     float: right;
     width: inherit;
 }
+
 .info {
     background-color: whitesmoke;
 }
+
+
 /* Parent: flex */
+
 .info_desc {
     display: flex;
 }
 
+
 /* Left */
+
 .info_date {
     width: 30%;
     padding-left: 1em;
 }
 
+
 /* Right */
+
 article {
     width: inherit;
 }
-.info_content{
+
+.info_content {
     width: 70%;
 }
 
@@ -88,6 +100,7 @@ h1 {
     text-align: center;
     font-size: 3.5em;
 }
+
 img {
     max-width: 3em;
     height: auto;
@@ -121,126 +134,141 @@ h2 {
 .fab {
     color: inherit;
 }
+
 .hobbie_int {
     padding-left: 1em;
     padding-right: 1em;
     display: inline;
 }
-header{
+
+header {
     text-align: right;
 }
-.facebook{
-    border-radius: 20%;
-    display: inline;
-    }
-.twitter{
+
+.facebook {
     border-radius: 20%;
     display: inline;
 }
-.instagram{
+
+.twitter {
     border-radius: 20%;
     display: inline;
 }
-article{
+
+.instagram {
+    border-radius: 20%;
+    display: inline;
+}
+
+article {
     width: 30%;
 }
-article ul{
-        list-style: none;
+
+article ul {
+    list-style: none;
 }
-.center-flex{
+
+.center-flex {
     display: flex;
     justify-content: center;
 }
+
+
 /* used to hide social media */
-a{
+
+a {
     text-decoration: none;
 }
-.contact{
+
+.contact {
     text-align: center;
 }
-.hobbies{
-    top:100%;
+
+.hobbies {
+    top: 100%;
     position: inherit;
 }
+
 @media only screen and (max-width: 1000px) {
-    .about p{
+    .about p {
         font-size: 0.8em;
         color: whitesmoke;
     }
-    body{
+    body {
         display: block;
     }
-    .right{
+    .right {
         padding-left: 1em;
     }
-    header>h1{
+    header>h1 {
         display: none;
     }
-    .image img{
+    .image img {
         max-width: 9em;
     }
-    .image{
+    .image {
         margin-bottom: -0.8em;
         padding-top: 0.5em;
     }
-    nav{
-        width:100%;
+    nav {
+        width: 100%;
         min-height: 0%;
     }
-    h2{
+    h2 {
         font-size: 1.2em;
     }
-    li{
+    li {
         font-size: 0.9em;
     }
-    h1{
+    h1 {
         font-size: 1.6em;
     }
-    .hobbies{
-        display:inline;
-
+    .hobbies {
+        display: inline;
     }
-    .hobbie_int{
+    .hobbie_int {
         display: flex;
     }
-    img{
+    img {
         max-width: 2em;
     }
-    h3{
-        font-size:1em
+    h3 {
+        font-size: 1em
     }
-    header>h1{
+    header>h1 {
         display: none;
     }
-    .mobile_name{       
+    .mobile_name {
         font-family: Arial;
         border-color: #424242;
         display: inline;
     }
-    .mobile_name>h1{
+    .mobile_name>h1 {
         color: whitesmoke;
         background-color: #757575;
         border-style: solid;
         border-color: #757575;
     }
-    .socials{
+    .socials {
         display: none;
     }
-    .mobile_socials{
+    .mobile_socials {
         display: inline;
     }
-    .info_date{
+    .info_date {
         font-size: 0.7em;
     }
-    article {
+    /* article {
         font-size: 0.8em;
         display: flex;
-    }
-    .center-flex{
+    } */
+    .center-flex {
         display: block;
     }
-    article{
-        width: 100%;
-        padding-left:5%
+    article {
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        display: block;
     }
 }
