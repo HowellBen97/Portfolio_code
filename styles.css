@@ -194,6 +194,9 @@ a {
         font-size: 0.8em;
         color: whitesmoke;
     }
+    .name{
+        display: none;
+    }
     body {
         display: block;
     }
